@@ -1,0 +1,89 @@
+/* Global styles, loaded automatically by Slidev.
+   Kept small on purpose: everything else is UnoCSS utilities in slides.md. */
+
+:root {
+  --ink: #1f2937;
+  --accent: #0f766e;
+  --accent-soft: #ccfbf1;
+  --warn: #b91c1c;
+  --mute: #64748b;
+}
+
+/* Source / attribution line under a figure. Every downloaded image gets one. */
+.src {
+  font-size: 0.62rem;
+  /* 1.25 let the link underline of a wrapped line strike through the next one. */
+  line-height: 1.7;
+  color: var(--mute);
+  opacity: 0.85;
+}
+.src a {
+  color: var(--mute);
+  text-decoration: underline;
+}
+
+/* The one sentence the audience should leave with. Used ~8 times. */
+.thesis {
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+  padding: 0.55rem 0.9rem;
+  border-radius: 0 0.35rem 0.35rem 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  color: var(--ink);
+}
+.thesis.warn {
+  border-left-color: var(--warn);
+  background: #fef2f2;
+}
+.thesis b {
+  color: var(--accent);
+}
+.thesis.warn b {
+  color: var(--warn);
+}
+
+/* A single number that has to land. */
+.big {
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+}
+
+/* Handwritten accent, as in the sibling decks. */
+.hand {
+  font-family: 'Caveat', cursive;
+}
+
+/* Tables: the deck has five of them and the default is too airy. */
+.slidev-layout table {
+  font-size: 0.82rem;
+}
+.slidev-layout table th {
+  background: #f8fafc;
+  text-align: left;
+}
+.slidev-layout table td,
+.slidev-layout table th {
+  padding: 0.3rem 0.6rem;
+}
+
+/* Nine rows plus a callout: the "which fields" table needs tighter rows. */
+.fields table td,
+.fields table th {
+  padding: 0.16rem 0.6rem;
+}
+
+/* Status cells in the "which fields have a PDB" table. */
+.ok    { color: #15803d; font-weight: 700; }
+.mid   { color: #b45309; font-weight: 700; }
+.bad   { color: var(--warn); font-weight: 700; }
+
+/* Corner slot for the recurring data-engineering pill row. */
+.corner {
+  position: absolute;
+  right: 1.2rem;
+  bottom: 0.9rem;
+  opacity: 0.9;
+}
