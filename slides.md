@@ -319,19 +319,16 @@ leaving the laptop.
 
 </div>
 
-<div v-click class="mt-6 p-3 border-l-4 border-gray-300 bg-gray-50 text-sm">
-Together they remove <b>every step between having an idea and someone else using it</b> —
-except the two that were never automated: deciding whether it is correct, and
-deciding whether it should exist.
-</div>
-
 <!--
-~60 seconds, one click. Three cards, one sentence each, then the click.
+~50 seconds, no clicks. Three cards, one sentence each.
 
 Card 3 is the one this audience under-rates: data that never leaves the laptop
 is data you do not have to find a compliant host for.
 
-The click is the hinge of the whole talk. Read it out.
+Land the hinge verbally, it is deliberately not on the slide: together these
+remove every step between having an idea and someone else using it, except the
+two that were never automated — deciding whether it is correct, and deciding
+whether it should exist.
 -->
 
 ---
@@ -451,9 +448,9 @@ demo, a 3D structure, a dashboard.
 
 <div v-click="[1, 99]" class="mt-4">
 
-**The store answer is adware.** To put a web page on my slide,
-Web Viewer 2.0 wants to sign me in and hold on to my data —
-for a numbered company I have never heard of.
+**The store answer is $19 a month.** And to put a web page on
+my slide, Web Viewer 2.0 wants to sign me in and hold on to my
+data — for a numbered company I have never heard of.
 
 </div>
 
@@ -479,9 +476,9 @@ Audience of one, and it should stay that way. This is the kind that is
 <!--
 ~75 seconds, three clicks. The easy one. Keep it light and quick.
 
-Read the consent dialog out loud, especially "9423-1990 Québec inc." It gets the
-laugh and it makes the argument for you: this is the alternative to forty minutes
-of your own code. Do not dwell.
+Read the two screenshots out loud: $19 a month for one user, and it wants to
+sign you in on behalf of "9423-1990 Québec inc." It makes the argument for you —
+that is the alternative to forty minutes of your own code. Do not dwell.
 -->
 
 ---
@@ -788,10 +785,6 @@ Then thank them and go straight to the poll. Do not summarise.
 layout: center
 clicks: 5
 ---
-
-<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-
-<h3 class="hand text-teal-700 mb-6" style="font-size: 2.4em">before anyone has to speak</h3>
 
 # Show of hands
 
