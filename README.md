@@ -12,9 +12,8 @@ pnpm install
 pnpm dev          # http://localhost:3030 — presenter view at /presenter
 ```
 
-The talk **ends on slide 17**. Slides 18–19 are the discussion: a live show-of-hands poll that you
-tally on the slide with the drawing tool (toolbar, bottom left), and the question the poll sets up.
-`drawings.persist` is `false`, so the tally clears if the deck is given twice.
+The talk **ends on slide 17**. Slide 18 is the discussion — the question the talk does not answer,
+held for the remaining ten minutes — and slide 19 is the closing card.
 
 ## Build / export
 
@@ -28,7 +27,7 @@ pnpm export                         # → slides-export.pdf
 
 | path | what it holds |
 |---|---|
-| `slides.md` | the whole deck, 20 slides, speaker notes on every slide |
+| `slides.md` | the whole deck, 19 slides, speaker notes on every slide |
 | `style.css` | the shared house styles — `.thesis`, `.src`, `.big`, `.hand`, `.ok`/`.mid`/`.bad` |
 | `components/SignalMeter.vue` | the Bluetooth meter from the opening anecdote, driven by `$clicks` |
 | `components/RuntimeLadder.vue` | the six runtime rungs on slide 14, `:step="$clicks"` |

@@ -43,11 +43,11 @@ mdc: true
 
 <!--
 20 minutes of talk, 10 of discussion. The talk ENDS ON SLIDE 17.
-Slides 18-20 are the discussion — do not start them until you have handed the
+Slides 18-19 are the discussion — do not start them until you have handed the
 room the question.
 
 Block map: 1-5 two anecdotes · 6-8 what changed · 9-11 my two tools ·
-12-14 how to build it · 15-17 the role · 18-20 discussion.
+12-14 how to build it · 15-17 the role · 18-19 discussion.
 
 Checkpoint: slide 12 at minute 11. Cut candidate if late: slide 6.
 
@@ -208,7 +208,7 @@ Seventeen years old, and still how a large part of the field counts reads.
 ~2 minutes, three clicks. The serious half of the opening.
 
 Point at the paper first: 2009, and still how a large part of the field counts
-reads. Show of hands on who has used edgeR — it warms them up for the real poll.
+reads. Show of hands on who has used edgeR — it wakes the room up early.
 
 Say 14,808 as a number of LINES, and say the 39% C. That is the part that used
 to make ports impossible for one person.
@@ -778,64 +778,7 @@ On role 3, be blunt: a free static host is not a place for exam data, and the
 reason people put it there is that nobody gave them a vserver. That is an
 RSE-group failure, not a user failure.
 
-Then thank them and go straight to the poll. Do not summarise.
--->
-
----
-layout: center
-clicks: 5
----
-
-# Show of hands
-
-<div class="mt-8 space-y-5 text-left max-w-4xl mx-auto">
-
-<div v-click="[1, 99]" class="flex items-baseline gap-4">
-<div class="text-xl flex-1"><b>1 ·</b> Who has vibe-coded something in the last month?</div>
-<div class="w-32 border-b-2 border-gray-300 h-8"></div>
-</div>
-
-<div v-click="[2, 99]" class="flex items-baseline gap-4">
-<div class="text-xl flex-1"><b>2 ·</b> Who put one of those <b>on the internet</b> — publicly reachable, right now?</div>
-<div class="w-32 border-b-2 border-gray-300 h-8"></div>
-</div>
-
-<div v-click="[3, 99]" class="flex items-baseline gap-4">
-<div class="text-xl flex-1"><b>3 ·</b> Where does it live?
-<span class="text-sm text-gray-500 block mt-1">GitHub Pages · HF Spaces · a VPS you pay for · the institutional VM · you're not sure</span>
-</div>
-<div class="w-32 border-b-2 border-gray-300 h-8"></div>
-</div>
-
-<div v-click="[4, 99]" class="flex items-baseline gap-4">
-<div class="text-xl flex-1">
-<b>4 ·</b> Does it have users who aren't you?
-<span class="text-sm text-gray-500 block mt-1">Is there auth? Who can delete their data? Who gets the email when it breaks?</span>
-</div>
-<div class="w-32 border-b-2 border-gray-300 h-8"></div>
-</div>
-
-<div v-click="[5, 99]" class="flex items-baseline gap-4">
-<div class="text-xl flex-1 font-bold">5 · Does any of it have a single test?</div>
-<div class="w-32 border-b-2 border-red-400 h-8"></div>
-</div>
-
-</div>
-
-<!--
-~2 minutes, five clicks. THE DISCUSSION STARTS HERE, not the Q&A.
-
-Use the pen tool (toolbar, bottom left) and TALLY THE COUNTS IN THE BLANKS as
-you go. The scrawl is what the next slide points at. drawings.persist is false,
-so it clears if you give this talk twice.
-
-Do NOT editorialise between questions. Ask, count, write, next. Each question is
-a strictly smaller subset than the one before, and the shrinking is the whole
-argument — let the room watch it happen.
-
-"You're not sure" is a real answer. Say so, or nobody raises a hand.
-
-Question 5 is the one that goes quiet. Wait through the silence.
+Then thank them and hand the room the question. Do not summarise.
 -->
 
 ---
@@ -867,7 +810,7 @@ We have the speed. We did not get the test suites with it.
 </div>
 
 <div class="mt-4 p-3 border-l-4 border-gray-300 bg-gray-50 text-sm">
-<b>One test.</b> Look at the last row of hands.
+<b>One test</b> would be enough. Almost nothing personal has one.
 </div>
 
 </div>
@@ -907,10 +850,11 @@ Let's discuss
 </div>
 
 <!--
-Hold this for the rest of the slot — roughly eight minutes.
+Hold this for the rest of the slot — roughly ten minutes.
 
-Point at the tally you just drew when you say "look at the last row of hands".
-That is why you drew it.
+If the room is slow to start, ask for hands: who has vibe-coded something this
+month, who put one of those on the internet, and who has a single test on it.
+Each is a smaller subset than the last, and the shrinking makes the argument.
 
 Open with carrot or stick; everyone has an opinion. Hold "who pays" in reserve —
 it ends the conversation, so use it to land the plane.
